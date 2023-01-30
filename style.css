@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(129,145,32,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #252525;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.nav h1 {
+    color: antiquewhite;
+}
+
+.outsideDiv {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.insideDiv {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(215, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.insideDiv input {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: none;
+    caret-color: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+.insideDiv i {
+    background-color: rgb(91, 182, 182);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+.insideDiv input:hover {
+    background-color: #222229;
+}
+
+
+.insideDiv i:hover {
+    background-color: rgb(64, 165, 165);
+}
+
+
+.info {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(147, 143, 143);
+}
+
+
+.info p {
+    margin-left: 15px;
+}
+
+.boxes {
+    margin: 30px auto;
+    width: 70%;
+    height: auto;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 30px 15px;
+    margin-bottom: 45px;
+    border: 1px solid rgb(47, 43, 43);
+    box-shadow: rgba(57, 57, 87, 0.25) 0px 6px 12px -2px, rgba(45, 42, 42, 0.3) 0px 3px 7px -3px;
+} 
+
+.box.completed{
+    background-color: white;
+}
+
+
+.text {
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(156, 156, 166);
+}
+
+.fonts {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fonts i {
+    margin-left: 5px;
+    color: #252525;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.fonts i:hover {
+    background-color: rgb(169, 235, 213);
+}
+
+
+.fonts i:active {
+    background-color: rgb(164, 199, 122);
+}
+
+.dateP {
+    font-size: 14px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: rgb(126, 136, 150);
+}
+
+.hour {
+    color: aquamarine;
+    margin-left: 5px;
+}
