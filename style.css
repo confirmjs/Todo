@@ -134,7 +134,7 @@ body {
 } 
 
 .box.completed{
-    background-color: wheat;
+    border-color: aquamarine;
 }
 
 
